@@ -23,11 +23,11 @@ namespace OOP3
 
             ApplicationManager applicationManager = new ApplicationManager();
             applicationManager.MakeAnApplication(needCreditManager, loggerServices);
-            //applicationManager.MakeAnApplication(vehicleCreditManager);
-            //applicationManager.MakeAnApplication(housingCreditManager);
+            applicationManager.MakeAnApplication(vehicleCreditManager, loggerServices);
+            applicationManager.MakeAnApplication(housingCreditManager, loggerServices);
 
             List<ICreditManager> creditManagers = new List<ICreditManager>() { vehicleCreditManager, needCreditManager, housingCreditManager };
-            //applicationManager.MakeCreditPreNotification(creditManagers);
+            applicationManager.MakeCreditPreNotification(creditManagers);
         }
     }
 }
