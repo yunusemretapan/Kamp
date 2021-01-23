@@ -4,11 +4,6 @@
     {
         public void Add(Customer customer)
         {
-            //if (customer.)
-            //{
-
-            //}
-
 
         }
     }
