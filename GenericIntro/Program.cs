@@ -12,7 +12,7 @@ namespace GenericIntro
             }
             
             MyList<string> names = new MyList<string>();
-            names.Add("Engin");
+            names.Add("Yunus");
 
             Console.WriteLine(names.Length);
         }

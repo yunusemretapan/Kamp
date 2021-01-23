@@ -12,7 +12,7 @@ namespace Collections
                 throw new ArgumentNullException(nameof(args));
             }
 
-            List<string> names = new List<string> { "Engin", "Murat", "Kerem", "Halil" };
+            List<string> names = new List<string> { "Yunus", "Murat", "Kerem", "Halil" };
             names.Add("İlker");
         }
     }
